@@ -26,6 +26,8 @@ requirements:
     - opentelemetry-semantic-conventions {{ version }}
     - opentelemetry-util-http {{ version }}
     - wrapt >=1.0.0,<3.0.0
+  run_constrained:
+    - httpx >=0.18.0
 
 # Unable to run tests, respx is not available in the main channel.
 test:
